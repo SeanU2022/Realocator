@@ -128,3 +128,21 @@ buttonFetchPropertyList.addEventListener("click", function (event) {
     event.stopPropagation();
     fetchResidentialProperties(suburbSelected.value);
 });
+
+buttonFetchPropertyList.addEventListener("click", function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+    fetchResidentialProperties(locationName.value);
+});
+
+// Execute a function when the user presses a key on the keyboard
+locationName.addEventListener("keypress", function (event) {
+    // If the user presses the “Enter” key on the keyboard
+    if (event.key === "Enter") {
+        console.log("Keypress")
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Trigger the button element with a click
+        buttonFetchPropertyList.click();
+    }
+});
