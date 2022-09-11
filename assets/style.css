@@ -12,7 +12,7 @@
 
 h2 {
     font-family: prompt, helvetica, sans-serif;
-    font-size: smaller;
+    font-size: larger;
     font-weight: 500;
     color: white;
     font-kerning: normal;
@@ -62,10 +62,14 @@ button {
     color: white;
     padding: 10px;
     margin: 20px;
-    background-color: #00796b;
+    background-color: #00897b;
     border-radius: 5px;
     justify-content: left;
     border: none;
     cursor: pointer;
 
+}
+
+#shortList {
+    background-color: #26a69a;
 }
