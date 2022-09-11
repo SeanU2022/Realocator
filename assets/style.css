@@ -48,8 +48,24 @@ p {
     overflow: scroll;
 } */
 
-#table-property-list,
-#shortlist,
-#weatherTable {
+#table-property-list {
     font-family: prompt, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+button {
+    font-family: prompt, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    background-color: #00796b;
+    border-radius: 5px;
+    justify-content: left;
+    border: none;
+    cursor: pointer;
+
 }
